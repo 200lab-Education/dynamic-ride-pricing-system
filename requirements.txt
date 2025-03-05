@@ -1,0 +1,10 @@
+# requirements.txt
+numpy
+pandas
+scikit-learn
+joblib
+matplotlib
+seaborn
+flask
+streamlit
+requests
