@@ -6,6 +6,8 @@
 
 ## 📋 Overview
 
+![Dynamic Ride Pricing System demo](./_statics/demo.jpg)
+
 The system uses machine learning models to predict base prices based on ride characteristics and then applies dynamic (real-time) adjustments based on supply-demand, weather, time of day, user history, and many other factors.
 
 **Key Features:**
@@ -124,7 +126,7 @@ The system uses a 2-step process to determine prices:
 
 ### 1️⃣ Base Price Prediction
 
-> Uses Gradient Boosting model to predict price from distance, time, vehicle type. Result is the base price for the ride.
+> Uses Random Forest model to predict price from distance, time, vehicle type. Result is the base price for the ride.
 
 ### 2️⃣ Dynamic Price Adjustments
 
